@@ -1,0 +1,13 @@
+Things I've learned
+
+es6 feature. When you add an equal sign inside the parameter, you're telling your function to make whatever is on the other side of the equal sign, the default state
+  EXAMPLE:
+    const initialState = {
+      age: 21
+    }
+
+    const myFunc = (state = initialState, action) => {
+
+    }
+
+    In the example above, myFunc is going to to use the object called initialState as it's default state if no other state is given to it. 
